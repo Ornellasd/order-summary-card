@@ -1,0 +1,25 @@
+body {
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #000;
+  /* padding: 8px; */
+  /* border-radius: 12px; */
+  border-radius: 8px;
+}
