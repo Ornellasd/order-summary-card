@@ -1,22 +1,27 @@
+@media (min-width: 1440px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh;
+  }
+}
+
+@media (max-width: 375px) {
+  body {}
+}
+
 body {
-  background-image: url('./images/pattern-background-desktop.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: 'Red Hat Display', sans-serif;
 }
 
 p {
   font-size: 16px;
-}
-
-@media screen {
-  
-}
-
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  margin-top: 20vh;
 }
 
 .card {
