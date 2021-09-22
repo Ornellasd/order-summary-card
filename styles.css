@@ -85,6 +85,11 @@ p {
 
 .card-change a {
   font-weight: 700;
+  font-size: 13px;
+}
+
+.card-change a:hover {
+  text-decoration: none;
 }
 
 .card-controls {
@@ -94,8 +99,9 @@ p {
 
 .card-controls button {
   color: #fff;
+  font-weight: 900;
   background-color: blue;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -103,8 +109,8 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.card-controls button span{
-  font-weight: 700;
+.card-controls button:hover {
+  opacity: 0.5;
 }
 
 .card-controls a {
@@ -112,7 +118,11 @@ p {
   margin-bottom: 2rem;
   text-decoration: none;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   color: #000;
   opacity: 0.5;
+}
+
+.card-controls a:hover {
+  opacity: 1;
 }
