@@ -52,14 +52,21 @@ body {
 }
 
 .card-details img {
-  width: 30%;
-  height: auto;
+  height: 50px;
+  margin-right: 1rem;
+
+  /* width: 20%;
+  height: 20%; */
   /* height: 30%; */
   /* width: 30%;
   height: 30%; */
 }
 
-.card-details .card-pricing .card-plan {
+.card-controls {
   display: flex;
   flex-direction: column;
+}
+
+.card-controls a {
+  margin: auto;
 }
